@@ -1,0 +1,479 @@
+$ playwright test
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:28] "GET / HTTP/1.1" 200 -
+
+Running 23 tests using 1 worker
+
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET / HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /data/simulated.json HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /data/research.json HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /data/source-manifest.json HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /assets/index-BvNU1URb.css HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /favicon.svg HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:30] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:37] "GET / HTTP/1.1" 304 -
+  ✓   1 tests/e2e/personal.spec.ts:73:1 › new personal identity is empty, three destinations are primary, first result and reference persist (8.8s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:39] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓   2 tests/e2e/personal.spec.ts:99:1 › compatible series updates chart with independent baseline and previous comparisons and preserves reference (7.4s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:46] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:47] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓   3 tests/e2e/personal.spec.ts:116:1 › method/protocol incompatibility is not combined and latest observed value remains visible (8.8s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:13:55] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓   4 tests/e2e/personal.spec.ts:136:1 › missing result stays null and does not complete a reminder or become zero (8.0s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:03] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:14] "GET / HTTP/1.1" 304 -
+  ✓   5 tests/e2e/personal.spec.ts:161:1 › scheduled assessment -> valid result -> linked follow-up -> later result -> retained updated outcome (13.5s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:17] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:27] "GET / HTTP/1.1" 304 -
+  ✓   6 tests/e2e/personal.spec.ts:211:1 › profile switching keeps source/reference/task histories separate across reload (12.9s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:30] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓   7 tests/e2e/personal.spec.ts:235:1 › correction/deletion retain import/source history and symptom correction stays self-report (10.3s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:40] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓   8 tests/e2e/personal.spec.ts:284:1 › duplicate and invalid unit results are rejected rather than silently added (5.9s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:46] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:49] "GET / HTTP/1.1" 304 -
+  ✓   9 tests/e2e/personal.spec.ts:310:1 › existing exercise instruction retains declared source and partial/non-completion outcomes (6.2s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /?example=research&participant=7326 HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:52] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  10 tests/e2e/personal.spec.ts:347:1 › NASA example powers correct original values, independent baseline and previous change, method and historical exclusions (2.3s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /?example=fictional HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:54] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:55] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  11 tests/e2e/personal.spec.ts:387:1 › fictional scheduling and new result do not change original NASA research or personal records (5.0s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:59] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:59] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:59] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:14:59] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:00] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  12 tests/e2e/personal.spec.ts:415:1 › readable export accurately names context, values, calculations, symptoms and linked task without transmission (10.4s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:10] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  13 tests/e2e/personal.spec.ts:435:1 › personal import preserves explicit baseline/source, rejects foreign identity, and export includes filename/hash (5.1s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /?example=research HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:15] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  14 tests/e2e/personal.spec.ts:485:1 › real 3D canvas picking and keyboard region controls connect to the selected data (3.1s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:18] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  15 tests/e2e/personal.spec.ts:522:1 › mobile layout has no page/chart overflow and keyboard dialog focus returns to exact opener (2.1s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:20] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:25] "GET / HTTP/1.1" 304 -
+  ✓  16 tests/e2e/personal.spec.ts:540:1 › core app network is same-origin GET and offline reload keeps personal result, tasks and actual atlas (6.7s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /?example=research HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:27] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  17 tests/e2e/personal.spec.ts:580:1 › missing originals show truthful unavailable data without a replacement fixture (1.8s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:29] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  18 tests/e2e/personal.spec.ts:591:1 › source education names indicator, equipment, limits and verified publication URLs (1.9s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:31] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:35] "GET / HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:37] "GET /sw.js HTTP/1.1" 304 -
+  ✘  19 tests/e2e/personal.spec.ts:609:1 › validated full backup restores malformed storage while unreadable original bytes remain exportable (10.4s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:44] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✘  20 tests/e2e/personal.spec.ts:642:1 › quota failure cannot silently report success or overwrite existing observations (12.6s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:58] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:15:59] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+  ✓  21 tests/e2e/personal.spec.ts:674:1 › cancelled item remains cancelled and unnamed team instruction is rejected (7.2s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:05] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:05] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:05] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:06] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:08] "GET / HTTP/1.1" 304 -
+  ✓  22 tests/e2e/personal.spec.ts:706:1 › a supplied plan can be imported and non-completion reason survives reload without inventing another plan (4.9s)
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /assets/index-CnT6cwWZ.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /assets/index-BvNU1URb.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /data/research.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /data/simulated.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /data/source-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /sw.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /offline-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /index.html HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /favicon.svg HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /manus-routes.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /data/emergency-references.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:10] "GET /assets/anatomy-manifest.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:11] "GET /assets/muscular-atlas.glb HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [14/Nov/2026 07:16:16] "GET / HTTP/1.1" 304 -
+  ✓  23 tests/e2e/personal.spec.ts:753:1 › exploring NASA then returning preserves the last active personal identity and its reference (8.0s)
+
+
+  1) tests/e2e/personal.spec.ts:609:1 › validated full backup restores malformed storage while unreadable original bytes remain exportable
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.error-banner')
+    Expected substring: "unreadable"
+    Received string:    "stored personal state is malformed: Expected property name or '}' in JSON at position 1 (line 1 column 2) Export full local backup"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" with timeout 5000ms
+      - waiting for locator('.error-banner')
+        8 × locator resolved to <div role="alert" class="error-banner">…</div>
+          - unexpected value "stored personal state is malformed: Expected property name or '}' in JSON at position 1 (line 1 column 2) Export full local backup"
+
+
+      621 |   );
+      622 |   await page.reload();
+    > 623 |   await expect(page.locator(".error-banner")).toContainText("unreadable");
+          |                                               ^
+      624 |   await click(page, "menu");
+      625 |   const raw = page.waitForEvent("download");
+      626 |   await page.locator("dialog [data-action=backup]").click();
+        at <project>/tests/e2e/personal.spec.ts:623:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/personal-validated-full-ba-aa0ed-nal-bytes-remain-exportable/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/personal-validated-full-ba-aa0ed-nal-bytes-remain-exportable/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/personal-validated-full-ba-aa0ed-nal-bytes-remain-exportable/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/personal-validated-full-ba-aa0ed-nal-bytes-remain-exportable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/personal.spec.ts:642:1 › quota failure cannot silently report success or overwrite existing observations
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#measurement-error')
+    Expected pattern: /failed|quota|Quota/i
+    Received string:  ""
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" with timeout 5000ms
+      - waiting for locator('#measurement-error')
+        9 × locator resolved to <div role="alert" class="form-error" id="measurement-error"></div>
+          - unexpected value ""
+
+
+      665 |     .getByRole("button", { name: "Save measurement", exact: true })
+      666 |     .click();
+    > 667 |   await expect(page.locator("#measurement-error")).toContainText(
+          |                                                    ^
+      668 |     /failed|quota|Quota/i,
+      669 |   );
+      670 |   expect(
+        at <project>/tests/e2e/personal.spec.ts:667:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/personal-quota-failure-can-786d8-write-existing-observations/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/personal-quota-failure-can-786d8-write-existing-observations/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/personal-quota-failure-can-786d8-write-existing-observations/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/personal-quota-failure-can-786d8-write-existing-observations/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/e2e/personal.spec.ts:609:1 › validated full backup restores malformed storage while unreadable original bytes remain exportable
+    tests/e2e/personal.spec.ts:642:1 › quota failure cannot silently report success or overwrite existing observations
+  21 passed (2.8m)
+[ELIFECYCLE] Command failed with exit code 1.

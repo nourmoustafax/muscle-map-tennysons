@@ -1,0 +1,514 @@
+[
+  {
+    "file_id": "8e007f6e-2433-5ecd-b1b5-527876ee77e8",
+    "url": "https://nlsp.nasa.gov/api/v1/files/8e007f6e-2433-5ecd-b1b5-527876ee77e8/download",
+    "local_path": "/home/ubuntu/musclemap/data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Quadriceps.csv",
+    "filename": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Quadriceps.csv",
+    "http_status": 200,
+    "content_type": "text/csv; charset=utf-8",
+    "content_length_header": "12509",
+    "bytes": 12509,
+    "sha256": "29159ef412d35f371681b6ec0efefb872f84c2ece521003215ab8f9dd7ec6b8d",
+    "etag": "W/\"30dd-VHY7YE/IA5IkSKtMIVaSr6GyJIU\"",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Quadriceps"
+    ],
+    "row_count": 351,
+    "participants_sorted": [
+      "5016",
+      "5188",
+      "5210",
+      "5297",
+      "5627",
+      "6213",
+      "6403",
+      "6546",
+      "6611",
+      "6791",
+      "6877",
+      "6947",
+      "7036",
+      "7152",
+      "7326",
+      "7350",
+      "7574",
+      "7707",
+      "7750",
+      "8010",
+      "8072",
+      "8713",
+      "8837",
+      "8936",
+      "9667",
+      "9682",
+      "9713"
+    ],
+    "participant_count": 27,
+    "groups": {
+      "Control": 117,
+      "Exercise": 234
+    },
+    "test_phases": {
+      "PRE_TEST": 27,
+      "IN_TEST": 243,
+      "POST_TEST": 81
+    },
+    "br_day_values": [
+      3,
+      6,
+      7,
+      10,
+      11,
+      15,
+      22,
+      29,
+      36,
+      53,
+      69
+    ],
+    "measure_column": "Quadriceps",
+    "value_min": 38.06,
+    "value_max": 90.1,
+    "first_rows": [
+      {
+        "ID": "1",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "PRE_TEST",
+        "BR_Day": "6",
+        "Quadriceps": "44.64"
+      },
+      {
+        "ID": "2",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "3",
+        "Quadriceps": "44.37"
+      },
+      {
+        "ID": "3",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "7",
+        "Quadriceps": "46.10"
+      }
+    ],
+    "last_rows": [
+      {
+        "ID": "349",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "3",
+        "Quadriceps": "79.43"
+      },
+      {
+        "ID": "350",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "6",
+        "Quadriceps": "80.04"
+      },
+      {
+        "ID": "351",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "10",
+        "Quadriceps": "80.22"
+      }
+    ]
+  },
+  {
+    "file_id": "1caa9f53-93d6-54fb-805a-3548624f8d2b",
+    "url": "https://nlsp.nasa.gov/api/v1/files/1caa9f53-93d6-54fb-805a-3548624f8d2b/download",
+    "local_path": "/home/ubuntu/musclemap/data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Medial_Gastrocnemius.csv",
+    "filename": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Medial_Gastrocnemius.csv",
+    "http_status": 200,
+    "content_type": "text/csv; charset=utf-8",
+    "content_length_header": "12254",
+    "bytes": 12254,
+    "sha256": "8361ed7278dfebf5696ae570ee711a09d1707f16cc5f284c342ab304c4a3a0be",
+    "etag": "W/\"2fde-e/qqA4dcNDkf8UyV0yyI5z2K+u8\"",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Medial Gastrocnemius"
+    ],
+    "row_count": 351,
+    "participants_sorted": [
+      "5016",
+      "5188",
+      "5210",
+      "5297",
+      "5627",
+      "6213",
+      "6403",
+      "6546",
+      "6611",
+      "6791",
+      "6877",
+      "6947",
+      "7036",
+      "7152",
+      "7326",
+      "7350",
+      "7574",
+      "7707",
+      "7750",
+      "8010",
+      "8072",
+      "8713",
+      "8837",
+      "8936",
+      "9667",
+      "9682",
+      "9713"
+    ],
+    "participant_count": 27,
+    "groups": {
+      "Control": 117,
+      "Exercise": 234
+    },
+    "test_phases": {
+      "PRE_TEST": 27,
+      "IN_TEST": 243,
+      "POST_TEST": 81
+    },
+    "br_day_values": [
+      3,
+      6,
+      7,
+      10,
+      11,
+      15,
+      22,
+      29,
+      36,
+      53,
+      69
+    ],
+    "measure_column": "Medial Gastrocnemius",
+    "value_min": 5.1,
+    "value_max": 14.01,
+    "first_rows": [
+      {
+        "ID": "1",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "PRE_TEST",
+        "BR_Day": "6",
+        "Medial Gastrocnemius": "8.59"
+      },
+      {
+        "ID": "2",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "3",
+        "Medial Gastrocnemius": "8.33"
+      },
+      {
+        "ID": "3",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "7",
+        "Medial Gastrocnemius": "9.11"
+      }
+    ],
+    "last_rows": [
+      {
+        "ID": "349",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "3",
+        "Medial Gastrocnemius": "8.64"
+      },
+      {
+        "ID": "350",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "6",
+        "Medial Gastrocnemius": "8.94"
+      },
+      {
+        "ID": "351",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "10",
+        "Medial Gastrocnemius": "9.08"
+      }
+    ]
+  },
+  {
+    "file_id": "d40188a7-ffc4-54b7-bbbe-49ecf6fb03e9",
+    "url": "https://nlsp.nasa.gov/api/v1/files/d40188a7-ffc4-54b7-bbbe-49ecf6fb03e9/download",
+    "local_path": "/home/ubuntu/musclemap/data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Quadriceps.csv",
+    "filename": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Quadriceps.csv",
+    "http_status": 200,
+    "content_type": "text/csv; charset=utf-8",
+    "content_length_header": "12520",
+    "bytes": 12520,
+    "sha256": "b82bc0bd38d53826e76edbf67e283a0d9b8b7a3262aa1fe69db53751855c1c69",
+    "etag": "W/\"30e8-P/hJ6VKaRUFs/+2PVGRdlYZHyBA\"",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Quadriceps"
+    ],
+    "row_count": 351,
+    "participants_sorted": [
+      "5016",
+      "5188",
+      "5210",
+      "5297",
+      "5627",
+      "6213",
+      "6403",
+      "6546",
+      "6611",
+      "6791",
+      "6877",
+      "6947",
+      "7036",
+      "7152",
+      "7326",
+      "7350",
+      "7574",
+      "7707",
+      "7750",
+      "8010",
+      "8072",
+      "8713",
+      "8837",
+      "8936",
+      "9667",
+      "9682",
+      "9713"
+    ],
+    "participant_count": 27,
+    "groups": {
+      "Control": 117,
+      "Exercise": 234
+    },
+    "test_phases": {
+      "PRE_TEST": 27,
+      "IN_TEST": 243,
+      "POST_TEST": 81
+    },
+    "br_day_values": [
+      3,
+      6,
+      7,
+      10,
+      11,
+      15,
+      22,
+      29,
+      36,
+      53,
+      69
+    ],
+    "measure_column": "Quadriceps",
+    "value_min": 44.54,
+    "value_max": 106.62,
+    "first_rows": [
+      {
+        "ID": "1",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "PRE_TEST",
+        "BR_Day": "6",
+        "Quadriceps": "49.14"
+      },
+      {
+        "ID": "2",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "3",
+        "Quadriceps": "49.17"
+      },
+      {
+        "ID": "3",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "7",
+        "Quadriceps": "48.17"
+      }
+    ],
+    "last_rows": [
+      {
+        "ID": "349",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "3",
+        "Quadriceps": "90.63"
+      },
+      {
+        "ID": "350",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "6",
+        "Quadriceps": "89.84"
+      },
+      {
+        "ID": "351",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "10",
+        "Quadriceps": "90.04"
+      }
+    ]
+  },
+  {
+    "file_id": "7737cb2a-0da7-51af-84b2-7b43471dea2a",
+    "url": "https://nlsp.nasa.gov/api/v1/files/7737cb2a-0da7-51af-84b2-7b43471dea2a/download",
+    "local_path": "/home/ubuntu/musclemap/data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Medial_Gastrocnemius.csv",
+    "filename": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Medial_Gastrocnemius.csv",
+    "http_status": 200,
+    "content_type": "text/csv; charset=utf-8",
+    "content_length_header": "12266",
+    "bytes": 12266,
+    "sha256": "949ac4b6e381429e6b6d81f6c5048c2a9e677cee530017b43b7a5e445fe58169",
+    "etag": "W/\"2fea-3KyZXQ+14LFRUzl7BE/egrTdVS8\"",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Medial Gastrocnemius"
+    ],
+    "row_count": 351,
+    "participants_sorted": [
+      "5016",
+      "5188",
+      "5210",
+      "5297",
+      "5627",
+      "6213",
+      "6403",
+      "6546",
+      "6611",
+      "6791",
+      "6877",
+      "6947",
+      "7036",
+      "7152",
+      "7326",
+      "7350",
+      "7574",
+      "7707",
+      "7750",
+      "8010",
+      "8072",
+      "8713",
+      "8837",
+      "8936",
+      "9667",
+      "9682",
+      "9713"
+    ],
+    "participant_count": 27,
+    "groups": {
+      "Control": 117,
+      "Exercise": 234
+    },
+    "test_phases": {
+      "PRE_TEST": 27,
+      "IN_TEST": 243,
+      "POST_TEST": 81
+    },
+    "br_day_values": [
+      3,
+      6,
+      7,
+      10,
+      11,
+      15,
+      22,
+      29,
+      36,
+      53,
+      69
+    ],
+    "measure_column": "Medial Gastrocnemius",
+    "value_min": 3.78,
+    "value_max": 14.35,
+    "first_rows": [
+      {
+        "ID": "1",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "PRE_TEST",
+        "BR_Day": "6",
+        "Medial Gastrocnemius": "9.75"
+      },
+      {
+        "ID": "2",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "3",
+        "Medial Gastrocnemius": "9.39"
+      },
+      {
+        "ID": "3",
+        "Subject": "5210",
+        "Group": "Control",
+        "Test_Phase": "IN_TEST",
+        "BR_Day": "7",
+        "Medial Gastrocnemius": "8.51"
+      }
+    ],
+    "last_rows": [
+      {
+        "ID": "349",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "3",
+        "Medial Gastrocnemius": "10.25"
+      },
+      {
+        "ID": "350",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "6",
+        "Medial Gastrocnemius": "10.18"
+      },
+      {
+        "ID": "351",
+        "Subject": "8713",
+        "Group": "Exercise",
+        "Test_Phase": "POST_TEST",
+        "BR_Day": "10",
+        "Medial Gastrocnemius": "10.60"
+      }
+    ]
+  }
+]

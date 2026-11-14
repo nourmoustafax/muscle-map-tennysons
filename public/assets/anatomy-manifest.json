@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "asset": {
+    "path": "/assets/muscular-atlas.glb",
+    "format": "glTF 2.0 binary",
+    "sizeBytes": 14854100,
+    "sha256": "42bb67f5ea9c2197164a9f1b33c26a91496edf40ab8dc8ea37ffdf95a689cf61",
+    "generator": "scripts/prepare_anatomy.py"
+  },
+  "source": {
+    "name": "BodyParts3D / Anatomography Release 4.0 reduced OBJ",
+    "archive": "assets/anatomy-source/bodyparts3d-4.0/isa_BP3D_4.0_obj_99.zip",
+    "archiveSha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+    "metadata": "assets/anatomy-source/metadata/isa_parts_list_e.txt",
+    "databaseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/desc.html",
+    "downloadUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+  },
+  "license": {
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "historicalNotice": "BodyParts3D, (c) The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan",
+    "policy": "Historical Release 4.0 header retains CC Attribution-Share Alike 2.1 Japan; the current official license page states CC BY 4.0. Derived assets conservatively preserve both notices."
+  },
+  "coordinateTransform": {
+    "sourceUnit": "mm",
+    "threeUnit": "m",
+    "formula": "x=x*0.001; y=z*0.001; z=-y*0.001",
+    "sourceAxis": "right x<0, left x>0; posterior y>0; superior z>0",
+    "note": "Transform is baked into the GLB; no mirroring or normalization is applied."
+  },
+  "stats": {
+    "meshCount": 38,
+    "targetMeshCount": 5,
+    "contextMeshCount": 33,
+    "vertexCount": 328803,
+    "triangleCount": 577544
+  },
+  "targets": {
+    "RIGHT_QUADRICEPS_GROUP": [
+      {
+        "sourceId": "FJ1433",
+        "representationId": "BP5598",
+        "conceptId": "FMA38928",
+        "label": "right rectus femoris"
+      },
+      {
+        "sourceId": "FJ1443",
+        "representationId": "BP5600",
+        "conceptId": "FMA38932",
+        "label": "right vastus medialis"
+      },
+      {
+        "sourceId": "FJ1441",
+        "representationId": "BP5604",
+        "conceptId": "FMA38934",
+        "label": "right vastus intermedius"
+      },
+      {
+        "sourceId": "FJ1442",
+        "representationId": "BP5602",
+        "conceptId": "FMA38930",
+        "label": "right vastus lateralis"
+      }
+    ],
+    "RIGHT_MEDIAL_GASTROCNEMIUS": [
+      {
+        "sourceId": "FJ1397",
+        "representationId": "BP5539",
+        "conceptId": "FMA45957",
+        "label": "medial head of right gastrocnemius"
+      }
+    ]
+  },
+  "meshes": [
+    {
+      "sourceId": "FJ1433",
+      "representationId": "BP5598",
+      "conceptId": "FMA38928",
+      "label": "right rectus femoris",
+      "region": "RIGHT_QUADRICEPS_GROUP",
+      "role": "target",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1433.obj",
+      "boundsMm": [
+        [
+          -154.4494,
+          -152.6659,
+          314.6398
+        ],
+        [
+          -62.8828,
+          -83.8998,
+          871.104
+        ]
+      ],
+      "volumeCm3": 347.6284,
+      "vertices": 3326,
+      "triangles": 5688
+    },
+    {
+      "sourceId": "FJ1443",
+      "representationId": "BP5600",
+      "conceptId": "FMA38932",
+      "label": "right vastus medialis",
+      "region": "RIGHT_QUADRICEPS_GROUP",
+      "role": "target",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1443.obj",
+      "boundsMm": [
+        [
+          -105.6012,
+          -146.9768,
+          340.5477
+        ],
+        [
+          -34.827,
+          -89.132,
+          738.1791
+        ]
+      ],
+      "volumeCm3": 279.0808,
+      "vertices": 2773,
+      "triangles": 4552
+    },
+    {
+      "sourceId": "FJ1441",
+      "representationId": "BP5604",
+      "conceptId": "FMA38934",
+      "label": "right vastus intermedius",
+      "region": "RIGHT_QUADRICEPS_GROUP",
+      "role": "target",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1441.obj",
+      "boundsMm": [
+        [
+          -133.2139,
+          -135.232,
+          342.4849
+        ],
+        [
+          -76.2071,
+          -76.2608,
+          769.7438
+        ]
+      ],
+      "volumeCm3": 252.2192,
+      "vertices": 2748,
+      "triangles": 4260
+    },
+    {
+      "sourceId": "FJ1442",
+      "representationId": "BP5602",
+      "conceptId": "FMA38930",
+      "label": "right vastus lateralis",
+      "region": "RIGHT_QUADRICEPS_GROUP",
+      "role": "target",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1442.obj",
+      "boundsMm": [
+        [
+          -159.7767,
+          -137.0514,
+          317.932
+        ],
+        [
+          -84.0565,
+          -57.3671,
+          788.1671
+        ]
+      ],
+      "volumeCm3": 502.8514,
+      "vertices": 3975,
+      "triangles": 6688
+    },
+    {
+      "sourceId": "FJ1397",
+      "representationId": "BP5539",
+      "conceptId": "FMA45957",
+      "label": "medial head of right gastrocnemius",
+      "region": "RIGHT_MEDIAL_GASTROCNEMIUS",
+      "role": "target",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1397.obj",
+      "boundsMm": [
+        [
+          -74.2964,
+          -92.6934,
+          122.8331
+        ],
+        [
+          -21.508,
+          -13.5901,
+          432.1017
+        ]
+      ],
+      "volumeCm3": 308.777,
+      "vertices": 2263,
+      "triangles": 3842
+    },
+    {
+      "sourceId": "FJ1595",
+      "representationId": "BP4909",
+      "conceptId": "FMA13408",
+      "label": "right sternocleidomastoid",
+      "region": "CONTEXT_HEAD_NECK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1595.obj",
+      "boundsMm": [
+        [
+          -63.04,
+          -156.907,
+          1301.9504
+        ],
+        [
+          61.405,
+          -37.2539,
+          1503.1862
+        ]
+      ],
+      "volumeCm3": 47.0583,
+      "vertices": 6642,
+      "triangles": 10344
+    },
+    {
+      "sourceId": "FJ1573",
+      "representationId": "BP4910",
+      "conceptId": "FMA13409",
+      "label": "left sternocleidomastoid",
+      "region": "CONTEXT_HEAD_NECK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1573.obj",
+      "boundsMm": [
+        [
+          0.5797,
+          -156.8056,
+          1301.9855
+        ],
+        [
+          61.6655,
+          -37.3911,
+          1503.0208
+        ]
+      ],
+      "volumeCm3": 47.0567,
+      "vertices": 6210,
+      "triangles": 10224
+    },
+    {
+      "sourceId": "FJ1545",
+      "representationId": "BP4758",
+      "conceptId": "FMA22728",
+      "label": "right splenius capitis",
+      "region": "CONTEXT_HEAD_NECK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1545.obj",
+      "boundsMm": [
+        [
+          -60.8389,
+          -72.0567,
+          1285.3411
+        ],
+        [
+          2.5892,
+          2.1126,
+          1499.0533
+        ]
+      ],
+      "volumeCm3": 26.0422,
+      "vertices": 4841,
+      "triangles": 7808
+    },
+    {
+      "sourceId": "FJ1545M",
+      "representationId": "BP8022",
+      "conceptId": "FMA22729",
+      "label": "left splenius capitis",
+      "region": "CONTEXT_HEAD_NECK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1545M.obj",
+      "boundsMm": [
+        [
+          -2.5878,
+          -72.0167,
+          1285.35
+        ],
+        [
+          60.8389,
+          2.0678,
+          1499.0501
+        ]
+      ],
+      "volumeCm3": 25.9358,
+      "vertices": 4846,
+      "triangles": 7808
+    },
+    {
+      "sourceId": "FJ1452",
+      "representationId": "BP4967",
+      "conceptId": "FMA13336",
+      "label": "right external oblique",
+      "region": "CONTEXT_TRUNK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1452.obj",
+      "boundsMm": [
+        [
+          -140.8516,
+          -218.8,
+          793.5842
+        ],
+        [
+          -3.4234,
+          -36.9672,
+          1211.5841
+        ]
+      ],
+      "volumeCm3": 263.5714,
+      "vertices": 63907,
+      "triangles": 111826
+    },
+    {
+      "sourceId": "FJ1452M",
+      "representationId": "BP8154",
+      "conceptId": "FMA13337",
+      "label": "left external oblique",
+      "region": "CONTEXT_TRUNK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1452M.obj",
+      "boundsMm": [
+        [
+          3.4486,
+          -218.766,
+          793.625
+        ],
+        [
+          140.823,
+          -37.0208,
+          1211.58
+        ]
+      ],
+      "volumeCm3": 263.6293,
+      "vertices": 63893,
+      "triangles": 111826
+    },
+    {
+      "sourceId": "FJ1464",
+      "representationId": "BP5613",
+      "conceptId": "FMA79979",
+      "label": "sternocostal part of right pectoralis major",
+      "region": "CONTEXT_TRUNK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1464.obj",
+      "boundsMm": [
+        [
+          -187.8484,
+          -219.582,
+          1140.6141
+        ],
+        [
+          -4.8156,
+          -81.0,
+          1313.9423
+        ]
+      ],
+      "volumeCm3": 397.108,
+      "vertices": 5480,
+      "triangles": 7114
+    },
+    {
+      "sourceId": "FJ1464M",
+      "representationId": "BP8323",
+      "conceptId": "FMA79980",
+      "label": "sternocostal part of left pectoralis major",
+      "region": "CONTEXT_TRUNK",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1464M.obj",
+      "boundsMm": [
+        [
+          4.8156,
+          -219.353,
+          1140.61
+        ],
+        [
+          187.848,
+          -81.0,
+          1313.8001
+        ]
+      ],
+      "volumeCm3": 394.9253,
+      "vertices": 5466,
+      "triangles": 7114
+    },
+    {
+      "sourceId": "FJ1467",
+      "representationId": "BP7571",
+      "conceptId": "FMA34682",
+      "label": "acromial part of right deltoid",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1467.obj",
+      "boundsMm": [
+        [
+          -227.4322,
+          -103.8038,
+          1205.0864
+        ],
+        [
+          -146.5569,
+          -40.6889,
+          1349.6547
+        ]
+      ],
+      "volumeCm3": 93.1687,
+      "vertices": 916,
+      "triangles": 1300
+    },
+    {
+      "sourceId": "FJ1467M",
+      "representationId": "BP9075",
+      "conceptId": "FMA34683",
+      "label": "acromial part of left deltoid",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1467M.obj",
+      "boundsMm": [
+        [
+          146.586,
+          -103.337,
+          1205.09
+        ],
+        [
+          227.228,
+          -40.8371,
+          1349.22
+        ]
+      ],
+      "volumeCm3": 91.0311,
+      "vertices": 918,
+      "triangles": 1300
+    },
+    {
+      "sourceId": "FJ1478",
+      "representationId": "BP5566",
+      "conceptId": "FMA37686",
+      "label": "long head of right biceps brachii",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1478.obj",
+      "boundsMm": [
+        [
+          -229.86,
+          -109.5556,
+          994.0718
+        ],
+        [
+          -135.2676,
+          -67.8089,
+          1339.5753
+        ]
+      ],
+      "volumeCm3": 95.4551,
+      "vertices": 1053,
+      "triangles": 1426
+    },
+    {
+      "sourceId": "FJ1478M",
+      "representationId": "BP8816",
+      "conceptId": "FMA37687",
+      "label": "long head of left biceps brachii",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1478M.obj",
+      "boundsMm": [
+        [
+          135.268,
+          -109.293,
+          994.072
+        ],
+        [
+          229.86,
+          -67.8089,
+          1339.42
+        ]
+      ],
+      "volumeCm3": 94.0446,
+      "vertices": 1039,
+      "triangles": 1426
+    },
+    {
+      "sourceId": "FJ1479",
+      "representationId": "BP5564",
+      "conceptId": "FMA37699",
+      "label": "long head of right triceps brachii",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1479.obj",
+      "boundsMm": [
+        [
+          -216.4615,
+          -64.1021,
+          1035.2449
+        ],
+        [
+          -134.1845,
+          -18.5477,
+          1300.7478
+        ]
+      ],
+      "volumeCm3": 133.2468,
+      "vertices": 1105,
+      "triangles": 1588
+    },
+    {
+      "sourceId": "FJ1479M",
+      "representationId": "BP8344",
+      "conceptId": "FMA37700",
+      "label": "long head of left triceps brachii",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1479M.obj",
+      "boundsMm": [
+        [
+          134.691,
+          -64.1021,
+          1035.24
+        ],
+        [
+          216.462,
+          -18.7596,
+          1300.75
+        ]
+      ],
+      "volumeCm3": 132.2875,
+      "vertices": 1109,
+      "triangles": 1588
+    },
+    {
+      "sourceId": "FJ1418",
+      "representationId": "BP5065",
+      "conceptId": "FMA22328",
+      "label": "right gluteus maximus",
+      "region": "CONTEXT_PELVIS",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1418.obj",
+      "boundsMm": [
+        [
+          -145.4008,
+          -78.0115,
+          667.7446
+        ],
+        [
+          1.7242,
+          20.1995,
+          932.5571
+        ]
+      ],
+      "volumeCm3": 363.8788,
+      "vertices": 2053,
+      "triangles": 2376
+    },
+    {
+      "sourceId": "FJ1418M",
+      "representationId": "BP8401",
+      "conceptId": "FMA22329",
+      "label": "left gluteus maximus",
+      "region": "CONTEXT_PELVIS",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1418M.obj",
+      "boundsMm": [
+        [
+          -1.5209,
+          -78.0115,
+          667.745
+        ],
+        [
+          145.401,
+          19.8663,
+          932.557
+        ]
+      ],
+      "volumeCm3": 355.1531,
+      "vertices": 2053,
+      "triangles": 2376
+    },
+    {
+      "sourceId": "FJ1395",
+      "representationId": "BP5575",
+      "conceptId": "FMA45888",
+      "label": "long head of right biceps femoris",
+      "region": "CONTEXT_THIGH",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1395.obj",
+      "boundsMm": [
+        [
+          -126.7175,
+          -72.1878,
+          327.9048
+        ],
+        [
+          -48.6306,
+          -18.2259,
+          764.7527
+        ]
+      ],
+      "volumeCm3": 475.5401,
+      "vertices": 2838,
+      "triangles": 5110
+    },
+    {
+      "sourceId": "FJ1395M",
+      "representationId": "BP8331",
+      "conceptId": "FMA45889",
+      "label": "long head of left biceps femoris",
+      "region": "CONTEXT_THIGH",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1395M.obj",
+      "boundsMm": [
+        [
+          48.6927,
+          -72.1878,
+          327.905
+        ],
+        [
+          126.642,
+          -18.3095,
+          764.753
+        ]
+      ],
+      "volumeCm3": 473.7541,
+      "vertices": 2837,
+      "triangles": 5110
+    },
+    {
+      "sourceId": "FJ1394",
+      "representationId": "BP5541",
+      "conceptId": "FMA45960",
+      "label": "lateral head of right gastrocnemius",
+      "region": "CONTEXT_LOWER_LEG",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1394.obj",
+      "boundsMm": [
+        [
+          -117.1885,
+          -80.6506,
+          132.8006
+        ],
+        [
+          -61.1287,
+          -5.7653,
+          423.3556
+        ]
+      ],
+      "volumeCm3": 215.7599,
+      "vertices": 1748,
+      "triangles": 3052
+    },
+    {
+      "sourceId": "FJ1394M",
+      "representationId": "BP7939",
+      "conceptId": "FMA45961",
+      "label": "lateral head of left gastrocnemius",
+      "region": "CONTEXT_LOWER_LEG",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1394M.obj",
+      "boundsMm": [
+        [
+          61.167,
+          -80.6506,
+          132.801
+        ],
+        [
+          116.992,
+          -5.8091,
+          423.261
+        ]
+      ],
+      "volumeCm3": 214.3112,
+      "vertices": 1746,
+      "triangles": 3052
+    },
+    {
+      "sourceId": "FJ1439",
+      "representationId": "BP5018",
+      "conceptId": "FMA22544",
+      "label": "right tibialis anterior",
+      "region": "CONTEXT_LOWER_LEG",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1439.obj",
+      "boundsMm": [
+        [
+          -116.9737,
+          -149.5999,
+          -38.8064
+        ],
+        [
+          -66.967,
+          -72.6236,
+          355.2686
+        ]
+      ],
+      "volumeCm3": 112.2998,
+      "vertices": 2204,
+      "triangles": 2510
+    },
+    {
+      "sourceId": "FJ1439M",
+      "representationId": "BP8720",
+      "conceptId": "FMA22545",
+      "label": "left tibialis anterior",
+      "region": "CONTEXT_LOWER_LEG",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1439M.obj",
+      "boundsMm": [
+        [
+          66.967,
+          -149.6,
+          -38.8064
+        ],
+        [
+          116.779,
+          -72.8246,
+          355.269
+        ]
+      ],
+      "volumeCm3": 110.9111,
+      "vertices": 2206,
+      "triangles": 2510
+    },
+    {
+      "sourceId": "FJ1437",
+      "representationId": "BP4999",
+      "conceptId": "FMA22558",
+      "label": "right soleus",
+      "region": "CONTEXT_LOWER_LEG",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1437.obj",
+      "boundsMm": [
+        [
+          -115.7854,
+          -91.2801,
+          32.4308
+        ],
+        [
+          -35.543,
+          -32.0264,
+          358.6165
+        ]
+      ],
+      "volumeCm3": 320.4711,
+      "vertices": 2674,
+      "triangles": 4418
+    },
+    {
+      "sourceId": "FJ1437M",
+      "representationId": "BP8819",
+      "conceptId": "FMA22559",
+      "label": "left soleus",
+      "region": "CONTEXT_LOWER_LEG",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1437M.obj",
+      "boundsMm": [
+        [
+          35.6001,
+          -91.1189,
+          32.464
+        ],
+        [
+          115.785,
+          -32.1986,
+          358.617
+        ]
+      ],
+      "volumeCm3": 317.828,
+      "vertices": 2674,
+      "triangles": 4418
+    },
+    {
+      "sourceId": "FJ1433M",
+      "representationId": "BP8094",
+      "conceptId": "FMA38929",
+      "label": "left rectus femoris",
+      "region": "CONTEXT_THIGH",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1433M.obj",
+      "boundsMm": [
+        [
+          62.9145,
+          -152.466,
+          314.708
+        ],
+        [
+          154.449,
+          -83.8998,
+          871.104
+        ]
+      ],
+      "volumeCm3": 345.603,
+      "vertices": 3326,
+      "triangles": 5688
+    },
+    {
+      "sourceId": "FJ1442M",
+      "representationId": "BP8754",
+      "conceptId": "FMA38931",
+      "label": "left vastus lateralis",
+      "region": "CONTEXT_THIGH",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1442M.obj",
+      "boundsMm": [
+        [
+          84.0565,
+          -137.051,
+          317.932
+        ],
+        [
+          159.633,
+          -57.5032,
+          788.167
+        ]
+      ],
+      "volumeCm3": 500.3182,
+      "vertices": 3974,
+      "triangles": 6688
+    },
+    {
+      "sourceId": "FJ1443M",
+      "representationId": "BP9128",
+      "conceptId": "FMA38933",
+      "label": "left vastus medialis",
+      "region": "CONTEXT_THIGH",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1443M.obj",
+      "boundsMm": [
+        [
+          34.9393,
+          -146.901,
+          340.548
+        ],
+        [
+          105.601,
+          -89.132,
+          738.179
+        ]
+      ],
+      "volumeCm3": 277.2668,
+      "vertices": 2772,
+      "triangles": 4552
+    },
+    {
+      "sourceId": "FJ1441M",
+      "representationId": "BP9207",
+      "conceptId": "FMA38935",
+      "label": "left vastus intermedius",
+      "region": "CONTEXT_THIGH",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1441M.obj",
+      "boundsMm": [
+        [
+          76.2071,
+          -135.139,
+          342.485
+        ],
+        [
+          133.096,
+          -76.2608,
+          769.744
+        ]
+      ],
+      "volumeCm3": 251.3311,
+      "vertices": 2744,
+      "triangles": 4260
+    },
+    {
+      "sourceId": "FJ1499",
+      "representationId": "BP4837",
+      "conceptId": "FMA38470",
+      "label": "right flexor digitorum superficialis",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1499.obj",
+      "boundsMm": [
+        [
+          -253.9559,
+          -133.245,
+          813.33
+        ],
+        [
+          -225.8015,
+          -81.2776,
+          992.4374
+        ]
+      ],
+      "volumeCm3": 16.766,
+      "vertices": 636,
+      "triangles": 866
+    },
+    {
+      "sourceId": "FJ1499M",
+      "representationId": "BP8284",
+      "conceptId": "FMA38471",
+      "label": "left flexor digitorum superficialis",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1499M.obj",
+      "boundsMm": [
+        [
+          225.825,
+          -133.245,
+          813.33
+        ],
+        [
+          253.914,
+          -81.2776,
+          992.437
+        ]
+      ],
+      "volumeCm3": 16.2107,
+      "vertices": 636,
+      "triangles": 866
+    },
+    {
+      "sourceId": "FJ1492",
+      "representationId": "BP4827",
+      "conceptId": "FMA38501",
+      "label": "right extensor digitorum",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1492.obj",
+      "boundsMm": [
+        [
+          -305.054,
+          -162.5285,
+          677.9808
+        ],
+        [
+          -222.4578,
+          -45.2683,
+          1059.9575
+        ]
+      ],
+      "volumeCm3": 29.1177,
+      "vertices": 3355,
+      "triangles": 4294
+    },
+    {
+      "sourceId": "FJ1492M",
+      "representationId": "BP8560",
+      "conceptId": "FMA38502",
+      "label": "left extensor digitorum",
+      "region": "CONTEXT_UPPER_LIMB",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ1492M.obj",
+      "boundsMm": [
+        [
+          222.477,
+          -162.529,
+          677.981
+        ],
+        [
+          305.054,
+          -45.3127,
+          1059.96
+        ]
+      ],
+      "volumeCm3": 29.8415,
+      "vertices": 3350,
+      "triangles": 4294
+    },
+    {
+      "sourceId": "FJ2810",
+      "representationId": "BP9115",
+      "conceptId": "FMA7163",
+      "label": "skin",
+      "region": "CONTEXT_SKIN",
+      "role": "context",
+      "archiveMember": "isa_BP3D_4.0_obj_99/FJ2810.obj",
+      "boundsMm": [
+        [
+          -334.119,
+          -246.783,
+          -78.1112
+        ],
+        [
+          332.825,
+          45.2476,
+          1641.36
+        ]
+      ],
+      "volumeCm3": 3443.3081,
+      "vertices": 102467,
+      "triangles": 203382
+    }
+  ],
+  "skin": {
+    "included": true,
+    "reason": "The original Skin mesh is a low-opacity orientation shell, not a muscular measurement or selectable region. No opaque skin hides muscle geometry."
+  }
+}

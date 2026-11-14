@@ -1,0 +1,94 @@
+[
+  {
+    "file": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Medial_Gastrocnemius.csv",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Medial Gastrocnemius"
+    ],
+    "rows": 351,
+    "participants": 27,
+    "missing": 3,
+    "firstOriginalRow": {
+      "ID": "1",
+      "Subject": "5210",
+      "Group": "Control",
+      "Test_Phase": "PRE_TEST",
+      "BR_Day": "6",
+      "Medial Gastrocnemius": "9.75"
+    },
+    "sha256": "949ac4b6e381429e6b6d81f6c5048c2a9e677cee530017b43b7a5e445fe58169"
+  },
+  {
+    "file": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Quadriceps.csv",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Quadriceps"
+    ],
+    "rows": 351,
+    "participants": 27,
+    "missing": 3,
+    "firstOriginalRow": {
+      "ID": "1",
+      "Subject": "5210",
+      "Group": "Control",
+      "Test_Phase": "PRE_TEST",
+      "BR_Day": "6",
+      "Quadriceps": "49.14"
+    },
+    "sha256": "b82bc0bd38d53826e76edbf67e283a0d9b8b7a3262aa1fe69db53751855c1c69"
+  },
+  {
+    "file": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Medial_Gastrocnemius.csv",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Medial Gastrocnemius"
+    ],
+    "rows": 351,
+    "participants": 27,
+    "missing": 2,
+    "firstOriginalRow": {
+      "ID": "1",
+      "Subject": "5210",
+      "Group": "Control",
+      "Test_Phase": "PRE_TEST",
+      "BR_Day": "6",
+      "Medial Gastrocnemius": "8.59"
+    },
+    "sha256": "8361ed7278dfebf5696ae570ee711a09d1707f16cc5f284c342ab304c4a3a0be"
+  },
+  {
+    "file": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Quadriceps.csv",
+    "headers": [
+      "ID",
+      "Subject",
+      "Group",
+      "Test_Phase",
+      "BR_Day",
+      "Quadriceps"
+    ],
+    "rows": 351,
+    "participants": 27,
+    "missing": 2,
+    "firstOriginalRow": {
+      "ID": "1",
+      "Subject": "5210",
+      "Group": "Control",
+      "Test_Phase": "PRE_TEST",
+      "BR_Day": "6",
+      "Quadriceps": "44.64"
+    },
+    "sha256": "29159ef412d35f371681b6ec0efefb872f84c2ece521003215ab8f9dd7ec6b8d"
+  }
+]

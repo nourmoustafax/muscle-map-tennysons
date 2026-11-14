@@ -1,0 +1,839 @@
+{
+  "project": "MuscleMap",
+  "version": "3.2.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 122,
+      "sha256": "a2201279c0a3407798e0c0e1603a7d01a51824b07e2ee906dd2ae8fb2ef8a71c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 196,
+      "sha256": "4286b9e15ff882d0009e6e7faf1422c6c4489f4e92b1fbe457d8646a4e3473d6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16394,
+      "sha256": "1ee04ec5398a782d3e67dd9cdb796b2e17a8e65f72d7bcfb514502a494ba6555"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2836,
+      "sha256": "74b7a33e2043f950d197181fc422f18e100e8bcf4e577f730fe95ce1cccc2167"
+    },
+    {
+      "path": "TODO.md",
+      "bytes": 22061,
+      "sha256": "07ef9d667877960d02dd73ba01be29d4232309a0b3b2b3749c67fd8f518c698a"
+    },
+    {
+      "path": "anatomy-license.md",
+      "bytes": 9386,
+      "sha256": "932f8efca741cc5b6fea0417ee5ef48cba338b66d45b2a3fa50d4c5457f9f098"
+    },
+    {
+      "path": "app.config.ts",
+      "bytes": 140,
+      "sha256": "d30090783b6f2f3d67aec9bfadc4d4980fab154d277249cc8c847f5289b79759"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/README_e.html",
+      "bytes": 19263,
+      "sha256": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/coordinate_system.png",
+      "bytes": 28425,
+      "sha256": "338736275c11eac8c89531fdc14193c9a8adf5baab674033d9d89259f152a5f6"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/isa_element_parts.txt",
+      "bytes": 1142159,
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/isa_inclusion_relation_list.txt",
+      "bytes": 207664,
+      "sha256": "26e7d818e03a8c909fe09c561f38d0d513423c87681f9450a803bc38f5b07564"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/isa_parts_list.txt",
+      "bytes": 302828,
+      "sha256": "e5f32398b916e259b88b8aabadac347fe4e0d6bcb2b6535a45ec66b5e60b32b5"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/isa_parts_list_e.txt",
+      "bytes": 128086,
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/partof_element_parts.txt",
+      "bytes": 651179,
+      "sha256": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/partof_inclusion_relation_list.txt",
+      "bytes": 91241,
+      "sha256": "1b40738270931e3c1d955ce34e0fce0d8d10d8c5ad543463e40b4b4c0243007c"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/partof_parts_list.txt",
+      "bytes": 142590,
+      "sha256": "dd29cceba270ffaa5d5f53003b1c3284f70a15fba7137bb81f26f176f4bdb5e3"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/partof_parts_list_e.txt",
+      "bytes": 59351,
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+    },
+    {
+      "path": "assets/anatomy-source/metadata/release_4.0_e.html",
+      "bytes": 6310,
+      "sha256": "771bd30a47ab11396eb6333e73a946426093c57fa4d4a1db8f718910fea7d985"
+    },
+    {
+      "path": "assets/anatomy-source/musclemap-source-subset.zip",
+      "bytes": 12227495,
+      "sha256": "c25a1335d03525be6c1e727a83f26a700a6b36c4d3903dce6857864642cf25e9"
+    },
+    {
+      "path": "assets/anatomy-source/subset-manifest.json",
+      "bytes": 6896,
+      "sha256": "3944dbd703b40c4a05367f61d50845adf979da1df19754586867c1a6aec2756c"
+    },
+    {
+      "path": "data/companion/manifest.json",
+      "bytes": 156842,
+      "sha256": "5568043ee9e3d0236aac11aba6d64a032c8dbc23937eb1d3e7a0385e0d15ea76"
+    },
+    {
+      "path": "data/expected-results.json",
+      "bytes": 2032,
+      "sha256": "bc229f751e7e269642bbaa9cd3040c65d74dfd324c6e0bdd111380b58dc85ec5"
+    },
+    {
+      "path": "data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Medial_Gastrocnemius.csv",
+      "bytes": 12266,
+      "sha256": "949ac4b6e381429e6b6d81f6c5048c2a9e677cee530017b43b7a5e445fe58169"
+    },
+    {
+      "path": "data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Quadriceps.csv",
+      "bytes": 12520,
+      "sha256": "b82bc0bd38d53826e76edbf67e283a0d9b8b7a3262aa1fe69db53751855c1c69"
+    },
+    {
+      "path": "data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Medial_Gastrocnemius.csv",
+      "bytes": 12254,
+      "sha256": "8361ed7278dfebf5696ae570ee711a09d1707f16cc5f284c342ab304c4a3a0be"
+    },
+    {
+      "path": "data/raw/BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Quadriceps.csv",
+      "bytes": 12509,
+      "sha256": "29159ef412d35f371681b6ec0efefb872f84c2ece521003215ab8f9dd7ec6b8d"
+    },
+    {
+      "path": "data/raw/download_manifest.json",
+      "bytes": 11023,
+      "sha256": "1006e08ca1ea701dc420b1cd707348e3ee52777a8499a36dbf026e4ccd29e326"
+    },
+    {
+      "path": "data/raw/file_metadata_manifest.json",
+      "bytes": 6809,
+      "sha256": "2287614bdc9b76f3e5f53c3aa96de5358ec9461c04323f8743bb39cf17fe2396"
+    },
+    {
+      "path": "dist/assets/anatomy-manifest.json",
+      "bytes": 23214,
+      "sha256": "4c77708a008aef8a72b2edae52405cf10cc2aca11f297ef5d56783c07ea8d25e"
+    },
+    {
+      "path": "dist/assets/index-BKMsJyiN.js",
+      "bytes": 740173,
+      "sha256": "8c4b3028d315a2e2162d44c9322bc97497d0712c0623ba49772e1a7ae576d44b"
+    },
+    {
+      "path": "dist/assets/index-CEVBQXrF.css",
+      "bytes": 69443,
+      "sha256": "c0c546a815ea261b74c15f7a842d8e19de359f3c9477635dceb5c83fdfeb3402"
+    },
+    {
+      "path": "dist/assets/muscular-atlas.glb",
+      "bytes": 14854100,
+      "sha256": "42bb67f5ea9c2197164a9f1b33c26a91496edf40ab8dc8ea37ffdf95a689cf61"
+    },
+    {
+      "path": "dist/data/emergency-references.json",
+      "bytes": 939,
+      "sha256": "0f0682ecf630ebe5cf7a42b9288c571f8bfa4f7123fc548d0c01302711aebf77"
+    },
+    {
+      "path": "dist/data/research.json",
+      "bytes": 1232642,
+      "sha256": "b3d7463ee5c753277bdd7a927f9e0adc81708e87a51337b16570cde439ee3aca"
+    },
+    {
+      "path": "dist/data/simulated.json",
+      "bytes": 14475,
+      "sha256": "5bcca044df20a436d82d63227bf39646eabd798ca1c8f024f02242219d60e0aa"
+    },
+    {
+      "path": "dist/data/source-manifest.json",
+      "bytes": 5450,
+      "sha256": "c59a36b605c8de02b5aafa3eef623d613833e1c022ce46a050e7b9004199cc76"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 280,
+      "sha256": "7e5815d1c62c228d2a6e3e2fa7534e64323aa50bfa17b4d20a82bd57c0f3c603"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 640,
+      "sha256": "aa023239bf06a0eb6bcb7520c5f351cf8f29c0e8b102540dc59047569d80eb59"
+    },
+    {
+      "path": "dist/manus-routes.json",
+      "bytes": 63,
+      "sha256": "70a264f2f9f3bd962410ea3fb5db2535af254bf17c1e543313bee89e31c80e1e"
+    },
+    {
+      "path": "dist/offline-manifest.json",
+      "bytes": 404,
+      "sha256": "00ea81a4a9dcbdaa98e87fcffa6df15a06e73d0461ee635ce107c033ae5da221"
+    },
+    {
+      "path": "dist/sw.js",
+      "bytes": 1239,
+      "sha256": "3e280154cc765cd5b33aa56a95e57043787c0adc87d75652bba5deb838f194dd"
+    },
+    {
+      "path": "docs/anatomy-mapping.md",
+      "bytes": 5027,
+      "sha256": "925666583eb000a44fcbe1832e5d33ff9903c15779531d9ed63f29bc389f458c"
+    },
+    {
+      "path": "docs/cft70-acquisition.md",
+      "bytes": 8584,
+      "sha256": "282ba4e70df550c6af401721a86d8c4686fcdbd98ae39f64c1564b64b4d07dcf"
+    },
+    {
+      "path": "docs/challenge-alignment-checklist.md",
+      "bytes": 7756,
+      "sha256": "eab299f549c420e5955b3446d51da4a66e41e7075495419913cf85c32cd581bb"
+    },
+    {
+      "path": "docs/challenge-and-judging.md",
+      "bytes": 15892,
+      "sha256": "b93c6528e8f9b373dee686a069242b0c496a03fa57fbe017c2a20e0dc9d45a0a"
+    },
+    {
+      "path": "docs/dataset-guide.md",
+      "bytes": 22563,
+      "sha256": "311d09565d529f2f139b0c9132f1296176da0aa8a7b98a098d38a4e720f0bf93"
+    },
+    {
+      "path": "docs/emergency-safety.md",
+      "bytes": 15470,
+      "sha256": "647663d7613953897f466f5d5a6468e356225501c47ffaac119a3392f9ec06e0"
+    },
+    {
+      "path": "docs/functional-sources.md",
+      "bytes": 9599,
+      "sha256": "6c6cf06a04c81c979a183a5cc2b5978de0b4582c3449ba8e541d0cc5e796a590"
+    },
+    {
+      "path": "docs/incident-research/nasa-procedure-findings.md",
+      "bytes": 10662,
+      "sha256": "d75cb0f5c3f61273ba26a60718153be1006ad8c042750613f63a1d282f0011e6"
+    },
+    {
+      "path": "docs/incident-research/ochmo-tb-044-medical-operations.pdf",
+      "bytes": 782471,
+      "sha256": "5de83940d8d2c2d25c281c29d2450bb0276376019ec9374ffd33b63c70888795"
+    },
+    {
+      "path": "docs/incident-research/verified-challenge-resources.md",
+      "bytes": 1397,
+      "sha256": "d0baf5c0cf9c2c20019ad659a1d5568a510ef82a5e09c8b85ca4927908232242"
+    },
+    {
+      "path": "docs/legacy-interface/README-v2.md",
+      "bytes": 39693,
+      "sha256": "5b9a009c5c01c70af5b95d108818eda8c8e006c4887f9d9fdd27c2795f2820f3"
+    },
+    {
+      "path": "docs/legacy-interface/verification-v2.md",
+      "bytes": 11144,
+      "sha256": "a229fb2e6d9562451f2fa5c19634596fa2e68d937073173e50da2be291c5a251"
+    },
+    {
+      "path": "docs/mission-integration.md",
+      "bytes": 14931,
+      "sha256": "fcae0c2d8fcf9e7afe5c9cef3f05d855fb7cbfedf9959e5a9d40c3290aaf327d"
+    },
+    {
+      "path": "docs/personal-review-api.md",
+      "bytes": 6200,
+      "sha256": "d5c0780915f3b26eb1e709140fc50f0942cc055de0cccd80ee6389fe6562e699"
+    },
+    {
+      "path": "docs/personal-sources/anatomy.md",
+      "bytes": 4290,
+      "sha256": "90e4cc75a58deb30ad5dea8f9aecf804200a441046a882a27d96f7cbbd6bf5dd"
+    },
+    {
+      "path": "docs/personal-sources/catalog.md",
+      "bytes": 5337,
+      "sha256": "4ee913acc0b91afced6606e42da19aa21b49f993f0cbd3d958cc623ff5f508a5"
+    },
+    {
+      "path": "docs/personal-sources/challenge.md",
+      "bytes": 4160,
+      "sha256": "944267dd0b1d11ac58b3c055ed7974ed3830949e6bf4dca319b767518a4e6474"
+    },
+    {
+      "path": "docs/personal-sources/risk.md",
+      "bytes": 6757,
+      "sha256": "ff8202431f9d05c4b0064182ef573eb158d3edae82e5b6f1f1d9e4ab89554e66"
+    },
+    {
+      "path": "docs/personal-sources/teleguided.md",
+      "bytes": 6055,
+      "sha256": "56e14533cf6a49b995ba23ab0fe18045540812fcb1fdccd31922cdf63d1fad0f"
+    },
+    {
+      "path": "docs/personal-sources/ultrasound.md",
+      "bytes": 4812,
+      "sha256": "29186889598afbfdd78c34dae88fc6a4ecad16b65b415137fe2841bac590941f"
+    },
+    {
+      "path": "docs/personal-state-api.md",
+      "bytes": 1996,
+      "sha256": "4c709defeff0b3bf30d13a3f9d7d11a5eb3c2ebf523a1845e20e7c79d4b1a07b"
+    },
+    {
+      "path": "docs/screenshots/desktop.png",
+      "bytes": 294813,
+      "sha256": "ea2428a5d33254d582c6841351c7ed6ae4b4490b7e44578380a4deb0a12cdcea"
+    },
+    {
+      "path": "docs/screenshots/direct-incident-mobile.png",
+      "bytes": 88300,
+      "sha256": "f738c2421cff8341066ad47b353df41414b6539d3651b709745cd268c85ee864"
+    },
+    {
+      "path": "docs/screenshots/humanized-desktop.png",
+      "bytes": 250671,
+      "sha256": "e3f3472f27125121531cd214fd45322406014c16fe34fdbbaeb50aa505e9f0a1"
+    },
+    {
+      "path": "docs/screenshots/humanized-mobile.png",
+      "bytes": 228617,
+      "sha256": "74fbaa75c4352ff43366a871ec7ac3c203f8e7e3c3755dc090c34639a0a28f9d"
+    },
+    {
+      "path": "docs/screenshots/mobile.png",
+      "bytes": 62495,
+      "sha256": "b7faf47e96f210be094ba85323cd06a129adf058abeb5a5abc742c5fc923674d"
+    },
+    {
+      "path": "docs/screenshots/personal-research-desktop.png",
+      "bytes": 184762,
+      "sha256": "6921f381765b5211b6459234c55bada952a8b02dcdc4154cb3e7712760d62c0e"
+    },
+    {
+      "path": "docs/screenshots/personal-research-mobile.png",
+      "bytes": 185559,
+      "sha256": "1910fc4343ff5aa0fccb87e1e2aff151109cb8e19b0abbbb690ff0c0bee40745"
+    },
+    {
+      "path": "docs/source-to-feature-mapping.md",
+      "bytes": 10320,
+      "sha256": "1590d4b6061e73d569e7b0286e5bab69194e2251d5eaca586437f48655de9ea0"
+    },
+    {
+      "path": "docs/test-evidence/browser-complete-run.log",
+      "bytes": 42005,
+      "sha256": "bf17dbcf7889cddcd4df5cb6f1f7ba2e44fd56cd3c8c813c537362852a366f12"
+    },
+    {
+      "path": "docs/test-evidence/browser-recovery-rerun.json",
+      "bytes": 3921,
+      "sha256": "559a95bd4b075787621d7b5c9c7c301d776604396d4c74b5257cc496244a4ff3"
+    },
+    {
+      "path": "docs/test-evidence/browser-responsive-rerun.json",
+      "bytes": 5018,
+      "sha256": "4dfdf0cabee390efb5fac6b17a1522798f2cd296c119cee4f479486dbf770d5e"
+    },
+    {
+      "path": "docs/test-evidence/browser-results.json",
+      "bytes": 921,
+      "sha256": "7c16f0beb76197c2caa2f08a64cccea036af4e86b4ada6c874dfd93a0c42be80"
+    },
+    {
+      "path": "docs/test-evidence/contrast-results.json",
+      "bytes": 529,
+      "sha256": "6b571a407b3cd1929899774a8c3618183a9de78f994a7d9ea1c932a977891628"
+    },
+    {
+      "path": "docs/test-evidence/direct-incident-final-browser.json",
+      "bytes": 7516,
+      "sha256": "101c00cc0daf6bfdc51e1172157fbd9200173b0b261c0903141192c05de55187"
+    },
+    {
+      "path": "docs/test-evidence/direct-incident-final-browser.log",
+      "bytes": 8551,
+      "sha256": "2811c95cee2919e01164b9838fdeab09674be2b003025ef8b5b662b0b6260ad3"
+    },
+    {
+      "path": "docs/test-evidence/direct-incident-first-recheck.json",
+      "bytes": 7485,
+      "sha256": "90a4f0a4214c93abfdd6cf9172be0d50fa3bf46f1d7fdbaf050e4de2208ebd51"
+    },
+    {
+      "path": "docs/test-evidence/direct-incident-full-browser.log",
+      "bytes": 64339,
+      "sha256": "4cbfb3b8bb4d64ac54f740e7529364c4a489fafbbc8856c96d34f1373fff8c75"
+    },
+    {
+      "path": "docs/test-evidence/direct-incident-unit-results.json",
+      "bytes": 40632,
+      "sha256": "0e0df769ce0dcbf7ba7f3acd364078aa37e1a03e9ddbc676afbb9b559852de6f"
+    },
+    {
+      "path": "docs/test-evidence/humanized-affected-browser.log",
+      "bytes": 11921,
+      "sha256": "d7efb6e3741595bc50abfaf236c1eb73b457ac47f64f7fab7ebc655a7b615b20"
+    },
+    {
+      "path": "docs/test-evidence/humanized-mobile-results.json",
+      "bytes": 2858,
+      "sha256": "7f98107c7c6d2749f31b70bfc03a0eafcdc0a2a2b8b13ce4038ab76989a69b03"
+    },
+    {
+      "path": "docs/test-evidence/humanized-unit-results.json",
+      "bytes": 38192,
+      "sha256": "e39cf4886a7181439ea1de94c09d95ff2a6aea3f14b757fb25924c4bf8addeda"
+    },
+    {
+      "path": "docs/test-evidence/incident-browser-initial-fail.log",
+      "bytes": 10563,
+      "sha256": "bcb15d9f5c718dee955cd89843466c580b37fe6ca344c6e4880628d3efaf31b8"
+    },
+    {
+      "path": "docs/test-evidence/incident-final-browser.json",
+      "bytes": 3936,
+      "sha256": "cd00e22dad71389630fbb87746ae2fc5f395506d0f1271c2343175142da2a299"
+    },
+    {
+      "path": "docs/test-evidence/incident-final-browser.log",
+      "bytes": 3582,
+      "sha256": "8f8863d471a357f9d170e281b0979fed3c5da69b820aad550f1e4f113fa27839"
+    },
+    {
+      "path": "docs/test-evidence/incident-final-unit-results.json",
+      "bytes": 40104,
+      "sha256": "f010500d72ad249ebdce03a6d7fbbbe3eae26347bc28b5c7441c741beede6804"
+    },
+    {
+      "path": "docs/test-evidence/independent-comparison.json",
+      "bytes": 990,
+      "sha256": "246d818c9868092ebe505cb40498bdec757306026b03ead828c57e25c19681fa"
+    },
+    {
+      "path": "docs/test-evidence/package-check.json",
+      "bytes": 1079,
+      "sha256": "02ab890d394ecac20d252ee7990ada22d7d6e2105ace47b1fcf8f322aaf9c5f9"
+    },
+    {
+      "path": "docs/test-evidence/refined-contrast.json",
+      "bytes": 1798,
+      "sha256": "fb3aaf28850f065b08c4d419a6173654ce5fed269805302041d6ba98ab4a268e"
+    },
+    {
+      "path": "docs/test-evidence/rendered-resource-final-recheck.json",
+      "bytes": 5188,
+      "sha256": "6b2a8397e48f913d97efef8be191ce7a997203638a47ee56eafa18d723c36b16"
+    },
+    {
+      "path": "docs/test-evidence/source-inventory.json",
+      "bytes": 2167,
+      "sha256": "720e46df520edadbf1fb7452c18a17f25467335bd991a06ca1a941121b135bc8"
+    },
+    {
+      "path": "docs/test-evidence/unit-results.json",
+      "bytes": 36374,
+      "sha256": "93a26ed519f5a2d86af959b680cc0f693bf6f8e21cd2351dbff8f4bd0634761e"
+    },
+    {
+      "path": "docs/verification-report.md",
+      "bytes": 17211,
+      "sha256": "d33d890c77d6dee697d72d331359943ee39e048d173f5a6f689dd825c447c319"
+    },
+    {
+      "path": "index.html",
+      "bytes": 541,
+      "sha256": "f309e6e6a221c02505b331a0a2cbf8582befdb838f60f975d117df13b6cf57fe"
+    },
+    {
+      "path": "package.json",
+      "bytes": 790,
+      "sha256": "53df169251a7674a6155d47754e28f7c7b3081183388e12980bed6ccd3789c33"
+    },
+    {
+      "path": "plan.md",
+      "bytes": 16410,
+      "sha256": "964058fe4b4254f2e5afdd74a320fcb23f290c55404d0444f3b9ea8e0db6aa7f"
+    },
+    {
+      "path": "playwright.config.ts",
+      "bytes": 932,
+      "sha256": "63f186d4d782465684f19edc0f0bcb143053cdeef4184df92b6cfa7490a77347"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 46687,
+      "sha256": "517787149696ba354b7e2b3ab17fe4f47c87e6d93d5c3c0c9ead939f0db3ab37"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 29,
+      "sha256": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+    },
+    {
+      "path": "public/assets/anatomy-manifest.json",
+      "bytes": 23214,
+      "sha256": "4c77708a008aef8a72b2edae52405cf10cc2aca11f297ef5d56783c07ea8d25e"
+    },
+    {
+      "path": "public/assets/muscular-atlas.glb",
+      "bytes": 14854100,
+      "sha256": "42bb67f5ea9c2197164a9f1b33c26a91496edf40ab8dc8ea37ffdf95a689cf61"
+    },
+    {
+      "path": "public/data/emergency-references.json",
+      "bytes": 939,
+      "sha256": "0f0682ecf630ebe5cf7a42b9288c571f8bfa4f7123fc548d0c01302711aebf77"
+    },
+    {
+      "path": "public/data/research.json",
+      "bytes": 1232642,
+      "sha256": "b3d7463ee5c753277bdd7a927f9e0adc81708e87a51337b16570cde439ee3aca"
+    },
+    {
+      "path": "public/data/simulated.json",
+      "bytes": 14475,
+      "sha256": "5bcca044df20a436d82d63227bf39646eabd798ca1c8f024f02242219d60e0aa"
+    },
+    {
+      "path": "public/data/source-manifest.json",
+      "bytes": 5450,
+      "sha256": "c59a36b605c8de02b5aafa3eef623d613833e1c022ce46a050e7b9004199cc76"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 280,
+      "sha256": "7e5815d1c62c228d2a6e3e2fa7534e64323aa50bfa17b4d20a82bd57c0f3c603"
+    },
+    {
+      "path": "public/manus-routes.json",
+      "bytes": 63,
+      "sha256": "70a264f2f9f3bd962410ea3fb5db2535af254bf17c1e543313bee89e31c80e1e"
+    },
+    {
+      "path": "public/sw.js",
+      "bytes": 1232,
+      "sha256": "dc7a1fdd6584121d4bade561bd78885ca1f4d751c4807019adb255754403c79b"
+    },
+    {
+      "path": "scripts/acquire_data.py",
+      "bytes": 1660,
+      "sha256": "73abce736522e9085399ebec569a7da94233c2ed4da8844905b7984cee1b0f78"
+    },
+    {
+      "path": "scripts/create_simulation.py",
+      "bytes": 3270,
+      "sha256": "586488b8dab84db2a5d117ccd6b6a48827b64412015ab815ef967d7769159712"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "bytes": 3043,
+      "sha256": "dbf1020e856896b30817d2844ef2d2b18607a14dec2219555694e4753bffbc2a"
+    },
+    {
+      "path": "scripts/prepare_anatomy.py",
+      "bytes": 18546,
+      "sha256": "458a8b8821937eafa3a2d383a03f2fdba2e558058ab45fb9d5216a6007251650"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "bytes": 5789,
+      "sha256": "8abb02bd549bb19de2ad7d1cacd568c84e56fc834a0125bb209f63ff50f77fc0"
+    },
+    {
+      "path": "scripts/prepare_offline.mjs",
+      "bytes": 1118,
+      "sha256": "705cc2a750833574d2766ccae99d6546a34f38f7f3bef5a498b477d7071c27de"
+    },
+    {
+      "path": "scripts/serve.py",
+      "bytes": 787,
+      "sha256": "fcbc55e6e3b594d78a5f82c483c96c35d34cdde09f5256d598c74572a809e900"
+    },
+    {
+      "path": "src/anatomy.ts",
+      "bytes": 23072,
+      "sha256": "5d505861ff7b2fa0015388cd8de31359fd9ef96feea1044d6e583fdaed325d9b"
+    },
+    {
+      "path": "src/domain.ts",
+      "bytes": 3562,
+      "sha256": "08f80a29030478a6a38fbd3f8f3635f9b8c10c79df6d90efac940ad077134c9f"
+    },
+    {
+      "path": "src/emergency.ts",
+      "bytes": 11424,
+      "sha256": "b5e1fe4790cdd5ccac01c87f720c23ce59b9546e2ce97a94877c88f690e14f80"
+    },
+    {
+      "path": "src/engine.ts",
+      "bytes": 12733,
+      "sha256": "430a456c1111d66fe14299710b9a8c5eb7f73ced28026ca5309439d2b2e83da7"
+    },
+    {
+      "path": "src/human-ui.ts",
+      "bytes": 1963,
+      "sha256": "06ac67d39b2a5ebc0de6c53f8dd7e2e6b3b2df62c1921573bfd6ca5005341f48"
+    },
+    {
+      "path": "src/human.css",
+      "bytes": 28295,
+      "sha256": "5602f7eb11165a9914a0962bbd931bb2cd362d249729d1379c00719ed7839a54"
+    },
+    {
+      "path": "src/incident-support.ts",
+      "bytes": 3182,
+      "sha256": "c1cba955dd950fff2977d7a68198079451afe46579366cec0d3e1c4aa56fb386"
+    },
+    {
+      "path": "src/incident-ui.ts",
+      "bytes": 2418,
+      "sha256": "f56b971d43f5816aa8a3c039d2b4b7a1ed07e8030933e7cc02c24961a99e7324"
+    },
+    {
+      "path": "src/ingestion.ts",
+      "bytes": 15724,
+      "sha256": "1702dfe99dcba6417a55cb62e6d8e050f36c3f3ab7070a4f01dfec0889a3f538"
+    },
+    {
+      "path": "src/intake.ts",
+      "bytes": 11210,
+      "sha256": "5822861e26cb866bf8991a96415d89c119e5d48c75a821bc15b327078c384028"
+    },
+    {
+      "path": "src/main.ts",
+      "bytes": 54686,
+      "sha256": "92e72bf950d6cde956eed6a994866a4634c05281b527887acfd5f86bc3398a3a"
+    },
+    {
+      "path": "src/measurement-input.ts",
+      "bytes": 18479,
+      "sha256": "392485722b472770d062e26e46c6aa3cdc8d7ca404fe078f9e8b62988aefffb0"
+    },
+    {
+      "path": "src/monitoring.ts",
+      "bytes": 18485,
+      "sha256": "5ce4d8ef07c92d167c0c7d17d71d7c0a876178e14e786f6d88a97e42e7f5b716"
+    },
+    {
+      "path": "src/overview.ts",
+      "bytes": 13890,
+      "sha256": "73d6f8dfc5296fa80dddf8bc4a20f463c4aace9e5b224bf67ae4d684abd95ce6"
+    },
+    {
+      "path": "src/personal-forms.ts",
+      "bytes": 13203,
+      "sha256": "b8ad62cc503ef410c93d6b1d2e461f571747431be722008dee6573c3a5980464"
+    },
+    {
+      "path": "src/personal-review.ts",
+      "bytes": 16847,
+      "sha256": "0a7a012655b7989cd8386f8895436c64d7253c13807122e822c547ed949a4c40"
+    },
+    {
+      "path": "src/personal-state.ts",
+      "bytes": 35635,
+      "sha256": "00ae9fd7fefe264c55ce5825518aedf9728070de31052816b6cbff54f611f452"
+    },
+    {
+      "path": "src/personal-types.ts",
+      "bytes": 2170,
+      "sha256": "1450012c02d01c5a17b7bbc4c6d2fe47d4f41cf889a3c761e93ad9955097f6d9"
+    },
+    {
+      "path": "src/personal-ui.ts",
+      "bytes": 20496,
+      "sha256": "10b4e979f8ec7e3a9fe40b02317fa4982e4622275110c90db043cddd044599ea"
+    },
+    {
+      "path": "src/product-copy.ts",
+      "bytes": 3990,
+      "sha256": "5ba10e207a9d42ef0ae4916783b28704ce1ea0df56799c5b820693c8b558dc0b"
+    },
+    {
+      "path": "src/store.ts",
+      "bytes": 6830,
+      "sha256": "14f2a3cd72fb190475e058abb32fe83e6fdc8a66246c7baed3bdef52508e3b6f"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 57202,
+      "sha256": "24b00b70a447106bd771c57c285de8618d329829737edac23fe31952a265cc66"
+    },
+    {
+      "path": "src/ui.ts",
+      "bytes": 5801,
+      "sha256": "faff7e79e1adacdf8ec41a708c90f6a7c6e475ffc0856c23ec028c2c4839429e"
+    },
+    {
+      "path": "tests/anatomy-refinement.test.ts",
+      "bytes": 1966,
+      "sha256": "0f747fd56c85f67b00da9b0eae17461c0332f950484ac6811b835a9eb31f519e"
+    },
+    {
+      "path": "tests/anatomy.test.ts",
+      "bytes": 4564,
+      "sha256": "f526c96e5f7316bfd9ed4148fd58835b70885c68041a4916ed67b4dc4c8b52fa"
+    },
+    {
+      "path": "tests/data.test.ts",
+      "bytes": 2944,
+      "sha256": "e79cec6008dbed5b3c8874ba5b6eeb1441cfebc1fefb5aea7585baaf1d12e524"
+    },
+    {
+      "path": "tests/e2e/direct-incident.spec.ts",
+      "bytes": 3183,
+      "sha256": "680fc9ef3f3aed94f34744830412eba6dae98319e271a876387d5fb825f8fa87"
+    },
+    {
+      "path": "tests/e2e/humanized.spec.ts",
+      "bytes": 2048,
+      "sha256": "49f9f454d921c253aed57001122198cef88cadd767af10dee789c4b8fc066ee9"
+    },
+    {
+      "path": "tests/e2e/incident-support.spec.ts",
+      "bytes": 3531,
+      "sha256": "afc525bb0b883a3ff6e57d177940f53e4b16d8ac9ee4fbeb6054b90c73ad9486"
+    },
+    {
+      "path": "tests/e2e/personal.spec.ts",
+      "bytes": 30785,
+      "sha256": "a5c72c0b485c9614e81ab3a09c6f6cec15787eaefce361a9ee26ad5a87390116"
+    },
+    {
+      "path": "tests/engine.test.ts",
+      "bytes": 4628,
+      "sha256": "8d3c5cd88f551571d869426df4ab1a8dfb7efa10f9d05139af49b5117840fd1c"
+    },
+    {
+      "path": "tests/human-ui.test.ts",
+      "bytes": 2845,
+      "sha256": "433c0485b07b8fc4508e64034de61026dfc596502ff09e3b38789193f315a4db"
+    },
+    {
+      "path": "tests/incident-refinement.test.ts",
+      "bytes": 5466,
+      "sha256": "cfe0552dc3eb94a6f9147f4ab2d91a951fb54e55b61fc5f323c6b4bfb64912b2"
+    },
+    {
+      "path": "tests/incident-restoration.test.ts",
+      "bytes": 3089,
+      "sha256": "73c533261135fd5fa3891a105e2a9a337b3e22a20000fc547f6f9d9159895a34"
+    },
+    {
+      "path": "tests/ingestion.test.ts",
+      "bytes": 4463,
+      "sha256": "f3cef1e2e2e80f1416192a99a22b05d7828e767e8c4c2898839a67d287298204"
+    },
+    {
+      "path": "tests/intake-refinement.test.ts",
+      "bytes": 7302,
+      "sha256": "009ce3a225befa8dc0167c7fdf9b0bb6926e10822439c67860be761dab09ea18"
+    },
+    {
+      "path": "tests/legacy-ui/journeys-v2.spec.ts",
+      "bytes": 13293,
+      "sha256": "5cc46d0e04764780ae4f010c28c744547e370cf6b772a85d22d92761a7c39f52"
+    },
+    {
+      "path": "tests/legacy-ui/refinement-v2.spec.ts",
+      "bytes": 10276,
+      "sha256": "5ae42efd25df0a0e151cfaeb46c8208c015433f23c01dd0e75f29e6169d94abd"
+    },
+    {
+      "path": "tests/measurement-input.test.ts",
+      "bytes": 9001,
+      "sha256": "3baf0f1e227c6ba73e602f583f803749e5c5df23055c256fc37d4fd2bd9a7c98"
+    },
+    {
+      "path": "tests/overview-refinement.test.ts",
+      "bytes": 9439,
+      "sha256": "4665c4ad100e7f484e8b13c213bda12795644f69ca2d1a25dfb1117f818d809c"
+    },
+    {
+      "path": "tests/personal-reliability.test.ts",
+      "bytes": 5637,
+      "sha256": "90dc45baf157b0b002098af5cf6c95955f828c54a3eb5d4af65918526147e176"
+    },
+    {
+      "path": "tests/personal-review.test.ts",
+      "bytes": 7956,
+      "sha256": "f8c22e33778ce3bb9dfa346280a9642c09eef59d1bc239546e20caf6abd63c40"
+    },
+    {
+      "path": "tests/personal-state.test.ts",
+      "bytes": 14954,
+      "sha256": "42f20da32b008b39d5acafe242f45ea32e0408165c0a368d12cb009e5cd29d88"
+    },
+    {
+      "path": "tests/reliability.test.ts",
+      "bytes": 5337,
+      "sha256": "413c950fc061777f23b35604d9d08b16cd6cef717f5da41695bc834abdb47a5a"
+    },
+    {
+      "path": "tests/store.test.ts",
+      "bytes": 2234,
+      "sha256": "846ca32c4fafd709b7fa10a2e618f19e0987d4913020570f8805a93e62c38374"
+    },
+    {
+      "path": "tests/ui-safety.test.ts",
+      "bytes": 1879,
+      "sha256": "1f425358df9c7302a8cf7572af35e743e99389692a460798a7517e540d1c272a"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 404,
+      "sha256": "da9047688e8b40e7966601a35643d9ce5d6c0a27504f5b98c8ebce144b2a0c9c"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 195,
+      "sha256": "3e5df876e557f1e59b7d318208fffe0187fb641476a4cbf3af406752e7550832"
+    },
+    {
+      "path": "vitest.config.ts",
+      "bytes": 185,
+      "sha256": "9aa7e6cf87836c22875bf18af5b8b3565b6ace921ff9d9a131f6c88f8d35118f"
+    }
+  ],
+  "excluded": [
+    "node_modules",
+    ".git",
+    "secrets",
+    "temporary test traces",
+    "full unused anatomical archives",
+    "raw companion clinical records"
+  ]
+}

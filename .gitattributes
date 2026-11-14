@@ -1,0 +1,4 @@
+data/raw/*.csv -text
+assets/anatomy-source/metadata/* -text
+assets/anatomy-source/*.zip binary
+public/assets/*.glb binary

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "NASA-STD-3001: Health and Medical Care",
+    "url": "https://www.nasa.gov/reference/3-0-health-and-medical-care/",
+    "provider": "NASA",
+    "role": "Mission medical governance and capabilities; not an executable checklist",
+    "reviewed": "2026-11-14"
+  },
+  {
+    "title": "Medical Operations Spaceflight Considerations \u00b7 13 August 2025",
+    "url": "https://www.nasa.gov/wp-content/uploads/2025/08/ochmo-tb-044-medical-operations.pdf",
+    "provider": "NASA",
+    "role": "OCHMO-TB-044, reference only; does not supersede mission requirements or supply treatment instructions",
+    "reviewed": "2026-11-14"
+  },
+  {
+    "title": "NASA: In-Flight Medical Care",
+    "url": "https://www.nasa.gov/ochmo/health-and-medical-systems/in-flight-medical-care/",
+    "provider": "NASA",
+    "role": "Medical support and research context; not a mission-approved emergency procedure",
+    "reviewed": "2026-11-14"
+  }
+]

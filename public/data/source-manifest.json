@@ -1,0 +1,94 @@
+[
+  {
+    "id": "CFT70-Ultrasound-Quadriceps",
+    "title": "CFT70 Panoramic ultrasound — Quadriceps",
+    "provider": "NASA NLSP / JSC LSDA",
+    "url": "https://nlsp.nasa.gov/api/v1/files/8e007f6e-2433-5ecd-b1b5-527876ee77e8/download",
+    "access": "Retrieved public CSV · immutable original",
+    "format": "UTF-8 BOM / CSV",
+    "hash": "29159ef412d35f371681b6ec0efefb872f84c2ece521003215ab8f9dd7ec6b8d",
+    "rows": 351,
+    "missing": 2,
+    "license": "No file-specific license field supplied. Publicly accessible NASA research; retain attribution. Confirm redistribution terms with NLSP for a new use.",
+    "limits": "27 de-identified ground-analog participants, not astronauts. Right-leg CSA only. Units from associated paper; no CSV unit header. PRE_TEST -> -BR_Day; POST_TEST -> 70+BR_Day. No invented calendar dates."
+  },
+  {
+    "id": "CFT70-Ultrasound-Medial-Gastrocnemius",
+    "title": "CFT70 Panoramic ultrasound — Medial Gastrocnemius",
+    "provider": "NASA NLSP / JSC LSDA",
+    "url": "https://nlsp.nasa.gov/api/v1/files/1caa9f53-93d6-54fb-805a-3548624f8d2b/download",
+    "access": "Retrieved public CSV · immutable original",
+    "format": "UTF-8 BOM / CSV",
+    "hash": "8361ed7278dfebf5696ae570ee711a09d1707f16cc5f284c342ab304c4a3a0be",
+    "rows": 351,
+    "missing": 2,
+    "license": "No file-specific license field supplied. Publicly accessible NASA research; retain attribution. Confirm redistribution terms with NLSP for a new use.",
+    "limits": "27 de-identified ground-analog participants, not astronauts. Right-leg CSA only. Units from associated paper; no CSV unit header. PRE_TEST -> -BR_Day; POST_TEST -> 70+BR_Day. No invented calendar dates."
+  },
+  {
+    "id": "CFT70-MRI-Quadriceps",
+    "title": "CFT70 MRI — Quadriceps",
+    "provider": "NASA NLSP / JSC LSDA",
+    "url": "https://nlsp.nasa.gov/api/v1/files/d40188a7-ffc4-54b7-bbbe-49ecf6fb03e9/download",
+    "access": "Retrieved public CSV · immutable original",
+    "format": "UTF-8 BOM / CSV",
+    "hash": "b82bc0bd38d53826e76edbf67e283a0d9b8b7a3262aa1fe69db53751855c1c69",
+    "rows": 351,
+    "missing": 3,
+    "license": "No file-specific license field supplied. Publicly accessible NASA research; retain attribution. Confirm redistribution terms with NLSP for a new use.",
+    "limits": "27 de-identified ground-analog participants, not astronauts. Right-leg CSA only. Units from associated paper; no CSV unit header. PRE_TEST -> -BR_Day; POST_TEST -> 70+BR_Day. No invented calendar dates."
+  },
+  {
+    "id": "CFT70-MRI-Medial-Gastrocnemius",
+    "title": "CFT70 MRI — Medial Gastrocnemius",
+    "provider": "NASA NLSP / JSC LSDA",
+    "url": "https://nlsp.nasa.gov/api/v1/files/7737cb2a-0da7-51af-84b2-7b43471dea2a/download",
+    "access": "Retrieved public CSV · immutable original",
+    "format": "UTF-8 BOM / CSV",
+    "hash": "949ac4b6e381429e6b6d81f6c5048c2a9e677cee530017b43b7a5e445fe58169",
+    "rows": 351,
+    "missing": 3,
+    "license": "No file-specific license field supplied. Publicly accessible NASA research; retain attribution. Confirm redistribution terms with NLSP for a new use.",
+    "limits": "27 de-identified ground-analog participants, not astronauts. Right-leg CSA only. Units from associated paper; no CSV unit header. PRE_TEST -> -BR_Day; POST_TEST -> 70+BR_Day. No invented calendar dates."
+  },
+  {
+    "id": "MR079G-isokinetic-function",
+    "title": "MR079G isokinetic function",
+    "provider": "NASA NLSP",
+    "url": "https://nlsp.nasa.gov/search/data/details/0dfd2185-49cf-567d-b744-d7177301e7ff?dataType=DATASETS",
+    "access": "Evaluated · not integrated",
+    "format": "CSV / catalog metadata",
+    "license": "No dataset-specific grant established; retrieval instructions in docs.",
+    "limits": "Downloaded and evaluated; not joined. Units and participant crosswalk not established for individual inference."
+  },
+  {
+    "id": "BEDREST_FTT-functional-tasks",
+    "title": "BEDREST_FTT functional tasks",
+    "provider": "NASA NLSP",
+    "url": "https://nlsp.nasa.gov/search/data/details/933d244c-5967-54ee-90c6-ce560da2108d?dataType=DATASETS",
+    "access": "Evaluated · not integrated",
+    "format": "CSV / catalog metadata",
+    "license": "No dataset-specific grant established; retrieval instructions in docs.",
+    "limits": "Public files exist. Multi-muscle task outcomes and phase/date semantics need a validated crosswalk; not integrated as direct anatomy."
+  },
+  {
+    "id": "Power-Cycle-Summary",
+    "title": "Power Cycle Summary",
+    "provider": "NASA NLSP",
+    "url": "https://nlsp.nasa.gov/search/data/details/0e311656-88ad-5871-9749-2922e6e0ff7a?dataType=DATASETS",
+    "access": "Evaluated · not integrated",
+    "format": "CSV / catalog metadata",
+    "license": "No dataset-specific grant established; retrieval instructions in docs.",
+    "limits": "Public CSVs evaluated. Cycling power is whole-task context, not a single-muscle CSA measure; no unverified participant-level join."
+  },
+  {
+    "id": "CFT70-symptoms-and-issues",
+    "title": "CFT70 symptoms and issues",
+    "provider": "NASA NLSP",
+    "url": "https://nlsp.nasa.gov/",
+    "access": "Evaluated · not integrated",
+    "format": "CSV / catalog metadata",
+    "license": "No dataset-specific grant established; retrieval instructions in docs.",
+    "limits": "Evaluated but not integrated. Clinical text and sparse participants require privacy/rights and documented crosswalk review."
+  }
+]

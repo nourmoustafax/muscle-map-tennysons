@@ -1,0 +1,90 @@
+[
+  {
+    "participant": "7326",
+    "modality": "Panoramic ultrasound",
+    "region": "RIGHT_QUADRICEPS_GROUP",
+    "baselineId": "53",
+    "latestId": "62",
+    "baseline": 84.53,
+    "latest": 87.95,
+    "day": 69,
+    "percentChange": 4.045900863598722
+  },
+  {
+    "participant": "7036",
+    "modality": "Panoramic ultrasound",
+    "region": "RIGHT_QUADRICEPS_GROUP",
+    "baselineId": "27",
+    "latestId": "36",
+    "baseline": 63.25,
+    "latest": 66.16,
+    "day": 69,
+    "percentChange": 4.600790513833992
+  },
+  {
+    "participant": "7326",
+    "modality": "Panoramic ultrasound",
+    "region": "RIGHT_MEDIAL_GASTROCNEMIUS",
+    "baselineId": "53",
+    "latestId": "62",
+    "baseline": 14.01,
+    "latest": 12.26,
+    "day": 69,
+    "percentChange": -12.491077801570308
+  },
+  {
+    "participant": "7036",
+    "modality": "Panoramic ultrasound",
+    "region": "RIGHT_MEDIAL_GASTROCNEMIUS",
+    "baselineId": "27",
+    "latestId": "36",
+    "baseline": 9.4,
+    "latest": 8.86,
+    "day": 69,
+    "percentChange": -5.74468085106383
+  },
+  {
+    "participant": "7326",
+    "modality": "MRI",
+    "region": "RIGHT_QUADRICEPS_GROUP",
+    "baselineId": "53",
+    "latestId": "62",
+    "baseline": 96.63,
+    "latest": 101.56,
+    "day": 69,
+    "percentChange": 5.101935216806375
+  },
+  {
+    "participant": "7036",
+    "modality": "MRI",
+    "region": "RIGHT_QUADRICEPS_GROUP",
+    "baselineId": "27",
+    "latestId": "36",
+    "baseline": 73.86,
+    "latest": 78.26,
+    "day": 69,
+    "percentChange": 5.957216355266721
+  },
+  {
+    "participant": "7326",
+    "modality": "MRI",
+    "region": "RIGHT_MEDIAL_GASTROCNEMIUS",
+    "baselineId": "53",
+    "latestId": "62",
+    "baseline": 13.5,
+    "latest": 11.19,
+    "day": 69,
+    "percentChange": -17.11111111111111
+  },
+  {
+    "participant": "7036",
+    "modality": "MRI",
+    "region": "RIGHT_MEDIAL_GASTROCNEMIUS",
+    "baselineId": "27",
+    "latestId": "36",
+    "baseline": 12.0,
+    "latest": 10.63,
+    "day": 69,
+    "percentChange": -11.416666666666666
+  }
+]

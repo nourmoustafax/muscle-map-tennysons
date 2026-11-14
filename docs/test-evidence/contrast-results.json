@@ -1,0 +1,26 @@
+[
+  {
+    "element": "main text",
+    "foreground": "#e9f1ee",
+    "background": "#0c1513",
+    "contrast": 16.14538677576462
+  },
+  {
+    "element": "muted text",
+    "foreground": "#a1b4aa",
+    "background": "#14201c",
+    "contrast": 7.680344501275291
+  },
+  {
+    "element": "accent text",
+    "foreground": "#9be8cb",
+    "background": "#14201c",
+    "contrast": 11.809522452947244
+  },
+  {
+    "element": "primary button",
+    "foreground": "#14201c",
+    "background": "#9be8cb",
+    "contrast": 11.809522452947244
+  }
+]

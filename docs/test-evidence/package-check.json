@@ -1,0 +1,58 @@
+{
+  "version": "3.0.0",
+  "zipCrc": "passed",
+  "allIncludedFileHashes": "passed by packager",
+  "includedDist": "passed",
+  "offlineSourceReproduction": [
+    {
+      "script": "acquire_data.py",
+      "exitCode": 0
+    },
+    {
+      "script": "prepare_data.py",
+      "exitCode": 0
+    },
+    {
+      "script": "create_simulation.py",
+      "exitCode": 0
+    },
+    {
+      "script": "prepare_anatomy.py",
+      "exitCode": 0
+    }
+  ],
+  "preparedDataAndAtlasByteIdentity": "passed",
+  "serverHttp": "passed",
+  "httpChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 644
+    },
+    {
+      "path": "/manus-routes.json",
+      "status": 200,
+      "bytes": 63
+    },
+    {
+      "path": "/data/research.json",
+      "status": 200,
+      "bytes": 1232642
+    },
+    {
+      "path": "/data/simulated.json",
+      "status": 200,
+      "bytes": 14475
+    },
+    {
+      "path": "/assets/muscular-atlas.glb",
+      "status": 200,
+      "bytes": 14854100
+    },
+    {
+      "path": "/offline-manifest.json",
+      "status": 200,
+      "bytes": 404
+    }
+  ]
+}

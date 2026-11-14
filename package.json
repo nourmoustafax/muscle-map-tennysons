@@ -1,0 +1,30 @@
+{
+  "name": "musclemap",
+  "private": true,
+  "version": "3.2.0",
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --strictPort",
+    "build": "tsc -b && vite build && node scripts/prepare_offline.mjs",
+    "preview": "vite preview --host 0.0.0.0 --strictPort",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write src tests *.ts *.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "^22.10.2",
+    "@types/papaparse": "5.3.16",
+    "@types/three": "0.180.0",
+    "jsdom": "26.1.0",
+    "prettier": "3.6.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "3.2.4"
+  },
+  "dependencies": {
+    "papaparse": "5.5.3",
+    "three": "0.180.0"
+  }
+}

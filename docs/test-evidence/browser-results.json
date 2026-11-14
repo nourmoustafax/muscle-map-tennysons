@@ -1,0 +1,27 @@
+{
+  "completeSuite": {
+    "total": 23,
+    "passed": 21,
+    "failed": 2,
+    "skipped": 0,
+    "source": "browser-complete-run.log"
+  },
+  "focusedAfterFix": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "source": "browser-recovery-rerun.json"
+  },
+  "fixes": [
+    "Recovery test now matches the actual malformed-storage error rather than requiring the word unreadable.",
+    "Quota save failure is displayed inline; unsaved form values remain instead of re-rendering an empty form. Related profile/task/outcome save errors use the same preservation approach."
+  ],
+  "unresolvedFailures": 0,
+  "fullSuiteRepeatedAfterFix": false,
+  "note": "All 23 workflows passed either in the complete run or the focused corrected recheck. This is not a claim that a second all-23 suite was executed.",
+  "responsiveAfterVisualFix": {
+    "passed": 3,
+    "failed": 0,
+    "source": "browser-responsive-rerun.json"
+  }
+}
